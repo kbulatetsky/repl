@@ -1,0 +1,2 @@
+export const LOADED = 'OUR_SELECTION_LOADED';
+export const CLEARED = 'OUR_SELECTION_CLEARED';
