@@ -20,6 +20,8 @@ module.exports = {
     rules: [
       { test: /\.js$/, include: path.join(__dirname, 'src'), loaders: ['babel-loader'] },
       { test: /(\.css)$/, loaders: ['style-loader', 'css-loader'] },
+      { test: /\.sass$/, loaders: ['style-loader', 'css-loader', 'sass-loader'] },
+      { test: /\.scss$/, loaders: ['style-loader', 'css-loader', 'sass-loader'] },
       { test: /\.html$/, loaders: ['html-loader'] },
     ],
   },

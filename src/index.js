@@ -16,6 +16,7 @@ import configureStore from './app/configureStore';
 import routes from './app/routes';
 
 import './styles/style.css';
+import './styles/base.sass';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
